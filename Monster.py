@@ -2,6 +2,7 @@ import pygame
 from pygame.locals import *
 
 class Monster():
+    speed = 5
     def __init__(self):
         self.blood = 500    #怪物血量
         # self.img    #怪物贴图
